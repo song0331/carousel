@@ -1,0 +1,30 @@
+body {
+  overflow: hidden;
+}
+
+.slide-container {
+  width: 300vw;
+  transition: all 0.5s;
+}
+
+.slide {
+  float: left;
+  width: 100vw;
+  text-align: center;
+}
+
+.slide img {
+  width: 50%;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.slide-btn {
+  padding: 4px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #479dda;
+  margin-top: 10px;
+}
